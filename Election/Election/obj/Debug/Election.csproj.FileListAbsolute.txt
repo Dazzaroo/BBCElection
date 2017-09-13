@@ -1,0 +1,9 @@
+c:\bbc\Election\Election\bin\Debug\Election.exe.config
+c:\bbc\Election\Election\bin\Debug\Election.exe
+c:\bbc\Election\Election\bin\Debug\Election.pdb
+c:\bbc\Election\Election\obj\Debug\Election.csprojResolveAssemblyReference.cache
+c:\bbc\Election\Election\obj\Debug\Election.ElectionWnd.resources
+c:\bbc\Election\Election\obj\Debug\Election.Properties.Resources.resources
+c:\bbc\Election\Election\obj\Debug\Election.csproj.GenerateResource.Cache
+c:\bbc\Election\Election\obj\Debug\Election.exe
+c:\bbc\Election\Election\obj\Debug\Election.pdb

@@ -1,0 +1,34 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Tue Apr 25 2017 17:04:40 GMT+0100 (GMT Daylight Time) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="constituencyResults">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="constituencyResult">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="consituencyId" type="xs:int"></xs:element>
+                                                 <xs:element name="constituencyName" type="xs:string"></xs:element>
+                                                 <xs:element name="results">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="result" maxOccurs="unbounded">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="partyCode" type="xs:string"></xs:element>
+                                                                                           <xs:element name="votes" minOccurs="0" type="xs:int"></xs:element>
+                                                                                           <xs:element name="share" minOccurs="0" type="xs:double"></xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                          <xs:attribute name="seqNo" type="xs:int"></xs:attribute>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
